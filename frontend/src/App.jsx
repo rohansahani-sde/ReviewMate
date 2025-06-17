@@ -59,7 +59,7 @@ function App() {
       {/* code */}
       <div className="code h-full bg-[#2a2a46] overflow-auto">
   <Editor
-  className='overflow-auto'
+  className='overflow-auto min-h-screen'
     value={code}
     onValueChange={code => setCode(code)}
     highlight={code => Prism.highlight(code, Prism.languages.java, 'java')}
